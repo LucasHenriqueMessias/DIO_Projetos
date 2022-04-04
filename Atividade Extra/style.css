@@ -1,0 +1,43 @@
+.muda-cor {
+    width: 600px;
+    height: 600px;
+}
+
+@media screen and (max-width: 1080px) {
+    .muda-cor {
+        background-color: purple;
+    }
+
+    .muda-cor h1:before{
+        content: "ROXO LINDO";
+    }
+}
+
+@media screen and (max-width: 1380px) {
+    .muda-cor {
+        background-color: yellow;
+    }
+
+    .muda-cor h1:before{
+        content: "AMARELO LINDO";
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .muda-cor {
+        background-color: red;
+    }
+
+    .muda-cor h1:before{
+        content: "VERMELHO LINDO";
+    }
+}
+@media screen and (max-width: 1024px) {
+    .muda-cor {
+        background-color: magenta;
+    }
+
+    .muda-cor h1:before{
+        content: "MAGENTA LINDO";
+    }
+}
